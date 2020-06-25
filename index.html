@@ -4,30 +4,38 @@
 <head>
     <meta charset="utf-8">
     <title>あおと</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <div>
-        <p>
-            github↓
-        </p>
+    <div class="header">
+        <div class="header-logo">Aoto-testpage</div>
+        <div class="header-list">
+          <ul>
+            <li><a href="https://github.com/aoto-naka">
+                github
+            </a></li>
+            <li>header-list2</li>
+            <li>header-list3</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <p>github↓</p>
         <p>
             <a href="https://github.com/aoto-naka">
                 https://github.com/aoto-naka
             </a>
         </p>
 
-        <p>
-            制作ゲーム例↓
-        </p>
+        <p>制作ゲーム例↓</p>
         <p>
             <a href="https://unityroom.com/users/sc5241im6knefo89apwz">
                 https://unityroom.com/users/sc5241im6knefo89apwz
             </a>
         </p>
-        <p>
-            processingのテスト↓
-        </p>
+        <p>processingのテスト↓</p>
         <p>
             <script src="processing.js"></script>
             <script type="text/processing" data-processing-target="processing-canvas">
@@ -50,7 +58,7 @@
             }
 
             void draw(){
-            background(180);
+            background(142, 217, 255);
             int i;
             translate(0, 0);
             fill(0);
